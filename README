@@ -1,0 +1,89 @@
+xvkbd
+------------------------------------------
+xvkbd is a virtual (graphical) keyboard program for X Window System 
+which provides facility to enter characters onto other clients 
+(softwares) by clicking on a keyboard displayed on the screen. This may 
+be used for systems without a hardware keyboard such as kiosk terminals 
+or handheld devices. This program also has facility to send characters 
+specified as the command line option to another client.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libX11_6-1.1.1-1
+  libXaw3d8-1.5E-1
+  libXmu6-1.0.3-1
+  libXt6-1.0.4-1
+  libXtst6-1.0.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
+  imake-1.0.2-2
+  make-3.81-1
+
+Canonical website:
+  http://homepage3.nifty.com/tsato/xvkbd/
+
+Canonical download:
+  http://homepage3.nifty.com/tsato/xvkbd/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xvkbd-2.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xvkbd-2.8-X.cygport all
+
+This will create:
+  /usr/src/xvkbd-2.8-X-src.tar.bz2
+  /usr/src/xvkbd-2.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/X11/app-defaults/XVkbd
+  /etc/X11/app-defaults/XVkbd-belgian
+  /etc/X11/app-defaults/XVkbd-common
+  /etc/X11/app-defaults/XVkbd-danish
+  /etc/X11/app-defaults/XVkbd-fitaly
+  /etc/X11/app-defaults/XVkbd-french
+  /etc/X11/app-defaults/XVkbd-french2
+  /etc/X11/app-defaults/XVkbd-german
+  /etc/X11/app-defaults/XVkbd-greek
+  /etc/X11/app-defaults/XVkbd-hebrew
+  /etc/X11/app-defaults/XVkbd-icelandic
+  /etc/X11/app-defaults/XVkbd-italian
+  /etc/X11/app-defaults/XVkbd-jisx6002
+  /etc/X11/app-defaults/XVkbd-jisx6004
+  /etc/X11/app-defaults/XVkbd-korean
+  /etc/X11/app-defaults/XVkbd-latin1
+  /etc/X11/app-defaults/XVkbd-norwegian
+  /etc/X11/app-defaults/XVkbd-portuguese
+  /etc/X11/app-defaults/XVkbd-slovene
+  /etc/X11/app-defaults/XVkbd-small
+  /etc/X11/app-defaults/XVkbd-spanish
+  /etc/X11/app-defaults/XVkbd-swedish
+  /etc/X11/app-defaults/XVkbd-swissgerman
+  /etc/X11/app-defaults/XVkbd-turkish
+  /etc/X11/app-defaults/XVkbd-uk
+  /usr/bin/xvkbd.exe
+  /usr/share/doc/Cygwin/xvkbd-2.8.README
+  /usr/share/doc/xvkbd-2.8/README
+  /usr/share/man/man1/xvkbd.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 2.8-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
