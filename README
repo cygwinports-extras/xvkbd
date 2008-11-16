@@ -8,17 +8,20 @@ or handheld devices. This program also has facility to send characters
 specified as the command line option to another client.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  libX11_6-1.1.3-1
-  libXaw3d8-1.5E-1
-  libXmu6-1.0.3-1
-  libXt6-1.0.5-1
-  libXtst6-1.0.3-1
+  cygwin-1.5.25-15
+  font-adobe-dpi100-1.0.0-1
+  font-bh-dpi100-1.0.0-1
+  font-bh-lucidatypewriter-dpi100-1.0.0-1
+  libX11_6-1.1.5-1
+  libXaw3d8-1.5D-8
+  libXmu6-1.0.4-1
+  libXt6-1.0.5-2
+  libXtst6-1.0.3-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
+  binutils-20080624-2
+  cygport-0.4.2-1
   gcc-core-3.4.4-3
   imake-1.0.2-2
   make-3.81-1
@@ -78,6 +81,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 3.0-2 -----
+Rebuilt for updated Xaw3d.
 
 ----- version 3.0-1 -----
 Version bump.
