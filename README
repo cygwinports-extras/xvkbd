@@ -8,23 +8,24 @@ or handheld devices. This program also has facility to send characters
 specified as the command line option to another client.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.5-1
   font-adobe-dpi100-1.0.0-1
   font-bh-dpi100-1.0.0-1
   font-bh-lucidatypewriter-dpi100-1.0.0-1
-  libX11_6-1.1.5-1
-  libXaw3d8-1.5D-8
-  libXmu6-1.0.4-1
-  libXt6-1.0.5-2
-  libXtst6-1.0.3-2
+  libgcc1-4.3.4-3
+  libX11_6-1.3.3-1
+  libXaw3d7-1.5D-8
+  libXmu6-1.0.5-1
+  libXt6-1.0.8-1
+  libXtst6-1.1.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080624-2
-  cygport-0.4.2-1
-  gcc-core-3.4.4-3
-  imake-1.0.2-2
-  make-3.81-1
+  binutils-2.20.51-2
+  cygport-0.9.84-1
+  gcc4-core-4.3.4-3
+  imake-1.0.3-1
+  make-3.81-2
 
 Canonical website:
   http://homepage3.nifty.com/tsato/xvkbd/
@@ -35,64 +36,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xvkbd-3.0-X-src.tar.bz2
+  unpack xvkbd-3.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xvkbd-3.0-X.cygport all
+  cygport ./xvkbd-3.2-X.cygport all
 
 This will create:
-  /usr/src/xvkbd-3.0-X-src.tar.bz2
-  /usr/src/xvkbd-3.0-X.tar.bz2
+  /usr/src/xvkbd-3.2-X-src.tar.bz2
+  /usr/src/xvkbd-3.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/X11/app-defaults/XVkbd
-  /etc/X11/app-defaults/XVkbd-belgian
-  /etc/X11/app-defaults/XVkbd-common
-  /etc/X11/app-defaults/XVkbd-danish
-  /etc/X11/app-defaults/XVkbd-fitaly
-  /etc/X11/app-defaults/XVkbd-french
-  /etc/X11/app-defaults/XVkbd-french2
-  /etc/X11/app-defaults/XVkbd-german
-  /etc/X11/app-defaults/XVkbd-greek
-  /etc/X11/app-defaults/XVkbd-hebrew
-  /etc/X11/app-defaults/XVkbd-icelandic
-  /etc/X11/app-defaults/XVkbd-italian
-  /etc/X11/app-defaults/XVkbd-jisx6002
-  /etc/X11/app-defaults/XVkbd-jisx6004
-  /etc/X11/app-defaults/XVkbd-korean
-  /etc/X11/app-defaults/XVkbd-latin1
-  /etc/X11/app-defaults/XVkbd-norwegian
-  /etc/X11/app-defaults/XVkbd-portuguese
-  /etc/X11/app-defaults/XVkbd-slovene
-  /etc/X11/app-defaults/XVkbd-small
-  /etc/X11/app-defaults/XVkbd-spanish
-  /etc/X11/app-defaults/XVkbd-swedish
-  /etc/X11/app-defaults/XVkbd-swissgerman
-  /etc/X11/app-defaults/XVkbd-turkish
-  /etc/X11/app-defaults/XVkbd-uk
-  /usr/bin/xvkbd.exe
-  /usr/share/doc/xvkbd-3.0/README
-  /usr/share/man/man1/xvkbd.1.gz
-
-------------------
-
 Port Notes:
 
------ version 3.0-2 -----
-Rebuilt for updated Xaw3d.
-
------ version 3.0-1 -----
-Version bump.
-
------ version 2.9-1 -----
-Version bump.
-
------ version 2.8-1 -----
-Initial release for Cygwin.
+----- version 3.2-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
