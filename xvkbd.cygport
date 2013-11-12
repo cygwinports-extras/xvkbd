@@ -1,5 +1,5 @@
 NAME="xvkbd"
-VERSION=3.3
+VERSION=3.5
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="X11 virtual keyboard"
